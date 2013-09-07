@@ -1,6 +1,14 @@
 *.class
+target
+project/target
+project/project
+.history
+/.classpath
+/.project
 
 # Package Files #
 *.jar
 *.war
 *.ear
+.meta/
+.metadata/
