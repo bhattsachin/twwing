@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/TCSInterface"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
@@ -7,6 +8,7 @@
 	<classpathentry exported="true" kind="lib" path="libs/apache-mime4j-0.6.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/commons-codec-1.3.jar"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/TCSInterface"/>
+	<classpathentry kind="lib" path="libs/jersey-client-1.8.jar"/>
+	<classpathentry kind="lib" path="libs/jersey-core-1.8.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

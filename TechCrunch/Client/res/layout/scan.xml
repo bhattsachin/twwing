@@ -8,7 +8,7 @@
         android:id="@+id/scanbtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/scancode" />
+        android:src="@drawable/scancode" android:visibility="gone" />
 
     <TextView
         android:id="@+id/barcode"
@@ -16,5 +16,31 @@
         android:layout_height="wrap_content"
         android:text="#BARCODE"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#LATITUDE"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/lon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#LONGITUDE"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+<TextView
+        android:id="@+id/addr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Button
+        android:id="@+id/savetoserver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tow"
+        android:textColorHint="@color/AntiqueWhite" />
 
 </LinearLayout>

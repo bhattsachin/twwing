@@ -26,12 +26,12 @@ public class TwiApplication extends Application {
 		return deviceId;
 	}
 
-	private long userIdentifier;
+	private int userIdentifier=111;
 
 	/**
 	 * @return Get User identifier Code
 	 */
-	public long getUserIdentifier() {
+	public int getUserIdentifier() {
 		return userIdentifier;
 	}
 
@@ -39,7 +39,7 @@ public class TwiApplication extends Application {
 	 * @param Set
 	 *            User Identifier
 	 */
-	public void setUserIdentifier(long userIdentifier) {
+	public void setUserIdentifier(int userIdentifier) {
 		this.userIdentifier = userIdentifier;
 	}
 

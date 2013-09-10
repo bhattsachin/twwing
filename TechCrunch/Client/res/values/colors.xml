@@ -2,7 +2,7 @@
 <resources>
     <color name="splash_screen_bg">#9B9B9B</color>
     <color name="splash_screen_font_color">#ffffff</color>
-    <color name="secondarynav_bg">#ffffff</color>
+    <color name="main_bg">#3f638a</color>
     <color name="app_default_font_color">#ff686868</color>
     <color name="transparent">#00000000</color>
     <color name="Black">#000000</color>

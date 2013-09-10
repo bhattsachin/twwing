@@ -118,3 +118,8 @@ org.apache.lucene.index.IndexNotFoundException: no segments* file found in org.a
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438) [org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar:na]
 2013-09-07 22:14:22,906 [pool-8-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-09-08 04:11:23,474 [main] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-09-08 07:03:07,853 [Worker-255] WARN  o.e.r.i.r.repo.ModelRepositoryIndex - More than one potential match for query +symbolic-names:com.google.gson +classifier:call found. Inconsistency in model store?
+2013-09-08 07:03:07,998 [pool-6-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-09-08 07:03:08,607 [pool-8-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
+2013-09-08 07:03:09,025 [pool-10-thread-1] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 8
